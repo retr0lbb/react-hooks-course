@@ -6,6 +6,7 @@ import { NotFound } from "../../pages/NotFound"
 import { UseStatePage } from "../../pages/UseStatePage"
 import { UseEffectPage } from "../../pages/UseEffect"
 import { UseReffPage } from "../../pages/UseReffPage"
+import { UseMemoPage } from "../../pages/UseMemoPage"
 
 export const Content: React.FC = () => {
     return(
@@ -15,6 +16,7 @@ export const Content: React.FC = () => {
                  <Route path="/useState" element={<UseStatePage />} />
                  <Route path="/useEffect" element={<UseEffectPage />} />
                  <Route path="/useRef" element={<UseReffPage />} />
+                 <Route path="/useMemo" element={<UseMemoPage />} />
                  <Route path="/*" element={<NotFound />} />
              </Routes>
         </main>

@@ -9,7 +9,7 @@ export const Menu: React.FC = () => {
                 <MenuLinks to="/useState" text="Use State" />
                 <MenuLinks to="/useEffect" text="UseEffect" />
                 <MenuLinks to="/useRef" text="UseRef" />
-                <MenuLinks to="/q" text="UseMemo" />
+                <MenuLinks to="/useMemo" text="UseMemo" />
                 <MenuLinks to="/q" text="UseCallback" />
                 <MenuLinks to="/q" text="UseContext" />
                 <MenuLinks to="/q" text="UseReducer" />

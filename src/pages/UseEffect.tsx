@@ -1,5 +1,6 @@
 import { Input } from "@nextui-org/react";
 import React, { useState, useEffect } from "react";
+import { PageContent } from "../components/layout/PageContent"
 
 function calcFactorial(number: any): number {
   
@@ -30,7 +31,7 @@ export const UseEffectPage: React.FC = () => {
     SetStatus(number % 2 === 0? "Par": "Impar")
   })
   return (
-    <div className="w-full h-full flex flex-col items-center py-10">
+    <PageContent className="w-full h-full flex flex-col items-center py-10">
       <h1 className="font-bold text-3xl text-slate-50">
         Exercicios de Use Effect
       </h1>
@@ -54,6 +55,6 @@ export const UseEffectPage: React.FC = () => {
           Status: {status}
         </h2>
       </div>
-    </div>
+    </PageContent>
   );
 };
