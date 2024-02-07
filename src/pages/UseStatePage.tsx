@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { Button, Input } from "@nextui-org/react"
+import { PageContent } from "../components/layout/PageContent"
 
 
 export const UseStatePage: React.FC = () => {
@@ -7,7 +8,7 @@ export const UseStatePage: React.FC = () => {
     const [name, setName] = useState("Init")
 
     return(
-        <div className="w-full h-full flex flex-col items-center py-10">
+        <PageContent className="py-10">
             <h1 className="font-bold text-3xl text-slate-50">Exercicios de Use State</h1>
             <div className="w-80 border-t"></div>
             
@@ -32,6 +33,6 @@ export const UseStatePage: React.FC = () => {
                     }} value={name}
                 />
             </div>  
-        </div>
+        </PageContent>
     )
 }

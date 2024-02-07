@@ -10,8 +10,8 @@ export const Menu: React.FC = () => {
                 <MenuLinks to="/useEffect" text="UseEffect" />
                 <MenuLinks to="/useRef" text="UseRef" />
                 <MenuLinks to="/useMemo" text="UseMemo" />
-                <MenuLinks to="/q" text="UseCallback" />
-                <MenuLinks to="/q" text="UseContext" />
+                <MenuLinks to="/useCallback" text="UseCallback" />
+                <MenuLinks to="/useContext" text="UseContext" />
                 <MenuLinks to="/q" text="UseReducer" />
                 <MenuLinks to="/q" text="CustomHook" />
             </ul>

@@ -1,5 +1,6 @@
 import { Input } from "@nextui-org/react";
 import React, {useEffect, useRef, RefObject, useState} from "react"
+import { PageContent } from "../components/layout/PageContent";
 
 export const UseReffPage: React.FC = () => {
     const [value1, setValue1] = useState("");
@@ -50,7 +51,7 @@ export const UseReffPage: React.FC = () => {
     }
 
     return(
-        <div className="w-full h-full flex flex-col items-center pt-20 px-80 gap-10">
+        <PageContent className="pt-20 px-80 gap-10">
             
             <div className="text-3xl text-slate-50">
             <span>Valor: </span>
@@ -82,6 +83,6 @@ export const UseReffPage: React.FC = () => {
                 }}
                
             />     
-        </div>
+        </PageContent>
     )
 }

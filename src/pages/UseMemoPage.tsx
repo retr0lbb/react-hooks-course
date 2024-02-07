@@ -4,7 +4,7 @@ import React, { useState, useMemo} from "react"
 
 
 function sum(a: number, b:number): number{
-    const future = Date.now() + 2000;
+    const future = Date.now() + 500;
     while(Date.now() < future) {}
     return a+ b
 }
